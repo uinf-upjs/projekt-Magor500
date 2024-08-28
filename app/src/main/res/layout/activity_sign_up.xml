@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity"
+    android:background="@mipmap/background">
+
+    <TextView
+        android:id="@+id/text_view_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_emailS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/text_view_signUp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"/>
+
+    <EditText
+        android:id="@+id/emailS_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/emailH"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:layout_below="@id/text_view_signUp"
+        android:layout_toEndOf="@id/text_view_emailS"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/text_view_usernameS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/username"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/text_view_emailS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/usernameS_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/usernameH"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:layout_below="@id/text_view_emailS"
+        android:layout_toEndOf="@id/text_view_usernameS"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/text_view_passwdS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/text_view_usernameS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/passwdS_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/passwordH"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:layout_below="@id/text_view_usernameS"
+        android:layout_toEndOf="@id/text_view_passwdS"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/text_view_repeatpasswdS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/repeat_password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/text_view_passwdS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"/>
+
+    <EditText
+        android:id="@+id/repeatpasswdS_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/repeat_passwordH"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:layout_below="@id/text_view_passwdS"
+        android:layout_toEndOf="@id/text_view_repeatpasswdS"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/button_signUpS"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/sign_up"
+        android:layout_below="@id/text_view_repeatpasswdS"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="17dp"
+        />
+
+    <Button
+        android:id="@+id/button_loginS"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/login"
+        android:layout_below="@id/button_signUpS"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="17dp"
+        />
+
+</RelativeLayout>

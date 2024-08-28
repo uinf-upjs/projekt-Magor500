@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyListOfGames</string>
+    <string name="status">Status</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="Password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="emailH">email</string>
+    <string name="usernameH">username</string>
+    <string name="passwordH">password</string>
+    <string name="repeat_passwordH">repeat password</string>
+    <string name="completed">Completed:</string>
+    <string name="playing">Playing:</string>
+    <string name="on_hold">On hold:</string>
+    <string name="want_to_play">Want to play:</string>
+    <string name="dropped">Dropped</string>
+    <string name="total_hours">Total hours</string>
+    <string name="cancel">Cancel</string>
+    <string name="write">Write</string>
+    <string name="write_review">write review</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="rating">Rating</string>
+    <string name="hours_spent">Hours spent</string>
+    <string name="end_dateH">end date</string>
+    <string name="start_dateH">start date</string>
+    <string name="hours_spentH">hours spent</string>
+    <string name="add">Add</string>
+
+    <string-array name="Status">
+        <item>Completed</item>
+        <item>Playing</item>
+        <item>On hold</item>
+        <item>Want to play</item>
+        <item>Dropped</item>
+    </string-array>
+
+    <string-array name="Rating">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

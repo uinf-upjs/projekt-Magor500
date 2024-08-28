@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/browse"
+        android:title="Browse"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/users"
+        android:title="Users"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/myList"
+        android:title="My list"
+        app:showAsAction="always"/>
+
+</menu>
